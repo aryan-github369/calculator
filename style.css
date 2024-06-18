@@ -1,0 +1,52 @@
+body{
+    margin-top: 70px;
+    background-color: rgb(220, 230, 227);
+}
+
+#text{
+    text-align: center;
+    color: rgb(3, 68, 70);
+}
+
+.front{
+    background-color: aquamarine;
+    width: 320px;
+    padding: 10px;
+    border: 5px solid rgb(16, 1, 1);
+    margin: auto;
+}
+
+.store{
+    margin: auto;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 20px;
+    margin: 3px;
+    font-size: 22px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+button:active{
+    transform: translateY(1px);
+}
+
+.row{
+    margin: 8px;
+}
+
+.row input{
+    font-size: 20px;
+    margin: 0;
+    height: 40px;
+    width: 250px;
+    padding-left: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
